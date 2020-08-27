@@ -1,0 +1,49 @@
+.know-block {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex: 0 1 50%;
+
+   padding: 110px 0px;
+}
+
+.know {
+   &-text {
+      padding-right: 125px;
+   }
+   &-header {
+      font-weight: 700;
+      font-size: 45px;
+      line-height: 55px;
+
+      text-transform: uppercase;
+
+      margin-bottom: 60px;
+   }
+
+   &-description {
+      font-size: 16px;
+      line-height: 25px;
+      margin-bottom: 60px;
+   }
+
+   &-button {
+      font-size: 19px;
+      font-weight: 700;
+      color: red;
+      background-color: #fff;
+      border: 2px solid red;
+      border-radius: 10px;
+      width: 255px;
+      height: 55px;
+   }
+}
+
+.wrap {
+   display: flex;
+   justify-content: space-between;
+   align-content: space-between;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+

@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+body {
+  font-family: "Open Sans";
+  font-size: 14px;
+}
+
+.container {
+  width: 1250px;
+  padding: 0px 15px;
+  margin: 0px auto;
+}
+
+.main-block {
+  background-color: #f6f2f2;
+  padding: 20px 0px 105px;
+}
+
+.nav {
+  margin-bottom: 105px;
+}
+
+.menu {
+  height: 90px;
+  background-color: #313030;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.menu-list li {
+  padding: 37px 30px;
+}
+
+.menu-list li:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+.menu-list__link {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.hero-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-header {
+  font-weight: 900;
+  font-size: 70px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.hero-subtitle {
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 60px;
+  padding-right: 100px;
+}
+
+.hero-button {
+  font-size: 19px;
+  font-weight: 700;
+  color: #fff;
+  background-color: red;
+  border-radius: 10px;
+  width: 255px;
+  height: 55px;
+}
+
+.hero-image {
+  width: 530px;
+  height: 370px;
+  background-color: #c4c0b1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 30px 10px #c4c0b1;
+}
+
+.know-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 0 1 50%;
+  padding: 110px 0px;
+}
+
+.know-text {
+  padding-right: 125px;
+}
+
+.know-header {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+
+.know-description {
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 60px;
+}
+
+.know-button {
+  font-size: 19px;
+  font-weight: 700;
+  color: red;
+  background-color: #fff;
+  border: 2px solid red;
+  border-radius: 10px;
+  width: 255px;
+  height: 55px;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
