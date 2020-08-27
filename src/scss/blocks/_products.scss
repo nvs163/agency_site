@@ -1,0 +1,32 @@
+.products-block {
+   margin: 105px 0px 140px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.products {
+   &-header {
+      font-size: 42px;
+      font-weight: 700;
+      text-transform: uppercase;
+
+      margin-bottom: 40px;
+   }
+
+   &-subtitle {
+      font-size: 16px;
+      line-height: 25px;
+      text-align: center;
+
+      max-width: 500px;
+
+      margin-bottom: 40px;
+   }
+
+   &-row {
+      margin-bottom: 90px;
+      border-top: 2px solid #ff0303;
+      width: 130px;
+   }
+}
