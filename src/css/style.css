@@ -73,6 +73,7 @@ h1, h2, h3, h4, h5, h6 {
 body {
   font-family: "Open Sans";
   font-size: 14px;
+  color: #585858;
 }
 
 .container {
@@ -130,6 +131,7 @@ body {
   font-weight: 900;
   font-size: 70px;
   text-transform: uppercase;
+  color: #000;
   margin-bottom: 40px;
 }
 
@@ -231,10 +233,14 @@ body {
 }
 
 .products-block {
-  margin: 105px 0px 140px;
+  padding: 105px 0px 120px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.products {
+  background-color: #f6f2f2;
 }
 
 .products-header {
@@ -256,4 +262,42 @@ body {
   margin-bottom: 90px;
   border-top: 2px solid #ff0303;
   width: 130px;
+}
+
+.products-menu {
+  margin-bottom: 65px;
+  font-size: 0;
+}
+
+.products-link {
+  display: inline-block;
+  margin: 0px 30px;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #585858;
+}
+
+.products-link:first-child {
+  margin-left: 0;
+}
+
+.products-link:last-child {
+  margin-right: 0;
+}
+
+.products-image {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.products-img {
+  background-color: #c4c0b1;
+  box-shadow: 1px 1px 10px #c4c0b1;
+  width: 290px;
+  height: 290px;
+  margin-bottom: 20px;
 }
