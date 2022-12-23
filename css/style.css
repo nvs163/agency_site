@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   color: #585858;
 }
@@ -98,23 +98,19 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 .menu-list {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
 }
-
 .menu-list li {
   padding: 37px 30px;
 }
-
 .menu-list li:hover {
   background-color: red;
   cursor: pointer;
 }
-
 .menu-list__link {
   font-size: 16px;
   text-transform: uppercase;
@@ -134,14 +130,12 @@ body {
   color: #000;
   margin-bottom: 40px;
 }
-
 .hero-subtitle {
   font-size: 16px;
   line-height: 25px;
   margin-bottom: 60px;
   padding-right: 100px;
 }
-
 .hero-button {
   font-size: 19px;
   font-weight: 700;
@@ -151,7 +145,6 @@ body {
   width: 255px;
   height: 55px;
 }
-
 .hero-image {
   width: 530px;
   height: 370px;
@@ -172,7 +165,6 @@ body {
   padding-right: 125px;
   flex-basis: 100%;
 }
-
 .know-header {
   font-weight: 700;
   font-size: 40px;
@@ -181,14 +173,12 @@ body {
   text-transform: uppercase;
   margin-bottom: 60px;
 }
-
 .know-description {
   font-size: 16px;
   line-height: 25px;
   margin-bottom: 60px;
   max-width: 505px;
 }
-
 .know-button {
   font-size: 19px;
   font-weight: 700;
@@ -199,11 +189,9 @@ body {
   width: 255px;
   height: 55px;
 }
-
 .know-term {
   flex-shrink: 1.7;
 }
-
 .know-wrap {
   width: 45%;
   margin-bottom: 50px;
@@ -216,17 +204,14 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
 }
-
 .wrap-icon {
   margin-bottom: 30px;
 }
-
 .wrap-subtitle {
   display: block;
   font-size: 26px;
   margin-bottom: 30px;
 }
-
 .wrap-text {
   font-size: 16px;
   line-height: 25px;
@@ -242,14 +227,12 @@ body {
 .products {
   background-color: #f6f2f2;
 }
-
 .products-header {
   font-size: 42px;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 40px;
 }
-
 .products-subtitle {
   font-size: 16px;
   line-height: 25px;
@@ -257,18 +240,15 @@ body {
   max-width: 500px;
   margin-bottom: 40px;
 }
-
 .products-row {
   margin-bottom: 90px;
   border-top: 2px solid #ff0303;
   width: 130px;
 }
-
 .products-menu {
   margin-bottom: 65px;
   font-size: 0;
 }
-
 .products-link {
   display: inline-block;
   margin: 0px 30px;
@@ -277,15 +257,12 @@ body {
   text-transform: uppercase;
   color: #585858;
 }
-
 .products-link:first-child {
   margin-left: 0;
 }
-
 .products-link:last-child {
   margin-right: 0;
 }
-
 .products-image {
   display: flex;
   justify-content: space-between;
@@ -293,7 +270,6 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
 }
-
 .products-img {
   background-color: #c4c0b1;
   box-shadow: 1px 1px 10px #c4c0b1;
